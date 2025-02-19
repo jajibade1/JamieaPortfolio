@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/css/styles.css">
+
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <title>Jamie's Portfolio</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Jamie Ajibade</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#workexperience" class="nav__link">Work Experience</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Welcome,<br>to <span class="home__title-color">Jamie Ajibade's</span><br> Portfolio</h1>
+
+                    <a href="#contact" class="button">Contact</a>
+                </div>
+
+                <div class="home__social">
+                    <a href="https://www.linkedin.com/in/jamie-ajibade-144098345/" class="home__social-icon"><i class='bx bxl-linkedin'>Linkedin</i></a>
+                    <a href="https://youtu.be/U1tKhHbQrXk" class="home__social-icon"><i class='bx bxl-youtube' >Youtube</i></a>
+                    <a href="https://github.com/jajibade1" class="home__social-icon"><i class='bx bxl-github' >Github</i></a>
+                </div>
+
+                <div class="home__img">
+                    <img src="/img/me.png" alt="">
+                </div>
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="/img/Jamie%20Headshot.jpeg" alt="">
+                    </div>
+
+                    <div>
+                        <h2 class="about__subtitle">Welcome</h2>
+                        <p class="about__text">Hi, My name is Jamie Ajibade. I am an IT graduate from Coventry University and currently working as a Service Desk Analyst.
+
+                            <br>
+                            <br>
+
+                        I enjoy travelling around the world and listening to music, dancing and going to the gym. My hobbies include playing and watching football and various sports.
+
+                            <br>
+                            <br>
+
+                         I would like to expand and broaden my IT knowledge and skills in order to become an expert in one area or more areas. I am interested in AI, Big Data and IoT.
+
+                    </div>
+                    </div>
+            </section>
+
+                    <!--===== WORK EXPERIENCE =====-->
+            <section class="workexperience_container" id="workexperience">
+                <h2 class="section-title">Work Experience</h2>
+
+
+
+                <p> I have previous experience in the following fields.</p>
+
+                    <br>
+
+                <li>Software Development</li>
+
+                <br>
+
+
+
+                <li>IT Support</li>
+                <br>
+
+
+                <li>Project Management</li>
+                <br>
+
+                <li>Retail</li>
+
+                <br>
+                <br>
+
+                <div class="work__container bd-grid">
+
+                    <div class="work__img">
+                <img id="myImg" src="/img/networkingfundamentals.png" onclick="enlargeimg()" id="img1" />
+
+                    </div>
+                    <div class="work__img">
+                <img src="/img/networkingserverfundamentals.png" onclick="enlargeimg()" id="img1" />
+                    </div>
+                        <div class="work__img">
+                <img src="/img/SDI%20v8.png" onclick="enlargeimg()" id="img1" />
+
+                    </div>
+            
+                </div>
+
+
+                    </section>
+
+
+            <!--===== WORK =====-->
+            <section class="work section" id="work">
+                <h2 class="section-title">Work</h2>
+
+                <div class="work__container bd-grid">
+                    <div class="work__img">
+                        <img src="/img/portfolio.PNG" alt="">
+                        <a href="www.github.com/jajibade1" class="home__social-icon"><i class='bx bxl-github' >Read Me</i></a>
+                        <a href="https://jamieajibade.netlify.com" class="home__social-icon"><i class='bx bxl-github'>Website</i></a>
+                        <p>my first portfolio website which outlines modules learnt at university</p>
+                    </div>
+                    <div class="work__img">
+                        <img src="/img/shopping.PNG" alt="">
+                        <a href="https://github.com/jajibade1/Shopping-Website" class="home__social-icon"><i class='bx bxl-github'>Read Me</i></a>
+                        <a href="https://jamies-shopping-website.netlify.app/" class="home__social-icon"><i class='bx bxl-github'>Website</i></a>
+                        <p>A sample website created using HTML, CSS, javascript which calculates the total cost of items added to the basket.</p>
+                    </div>
+                    <div class="work__img">
+                        <img src="/img/todo.PNG" alt="">
+                        <a href="https://github.com/jajibade1/React-To-Do-List" class="home__social-icon"><i class='bx bxl-github'>Read Me</i></a>
+                        <a href="https://jamies-to-do-app.netlify.app/" class="home__social-icon"><i class='bx bxl-github'>Website</i></a>
+                        <p>React To DO native application which allows users to add and remove items from the list</p>
+                    </div>
+                    <div class="work__img">
+                        <img src="img/travel.PNG" alt="">
+                        <a href="https://github.com/jajibade1/Travel-website" class="home__social-icon"><i class='bx bxl-github'>Read Me</i></a>
+                        <a href="https://jamie-travel-website.netlify.app/" class="home__social-icon"><i class='bx bxl-github'>Website</i></a>
+                        <p>Sample UX/UI website designed as a landing page which uses basic javascript to alter colours of headers and background image.</p>
+                    </div>
+                    <div class="work__img">
+                        <img src="img/C.PNG" alt="">
+                        <a href="https://github.com/jajibade1/C-University-Project" class="home__social-icon"><i class='bx bxl-github'>Read me</i></a>
+                        <p>This is a C++ program created at university which calculates the total cost of material builds. This uses switch statements and basic calculations.</p>
+                    </div>
+                    <div class="work__img">
+                        <img src="/img/Airline.png" alt="">
+                        <a href="https://github.com/jajibade1/AirlineReservationSystem" class="home__social-icon"><i class='bx bxl-github'>Read me</i></a>
+                        <p>This is a Java program which calculates the total fare for the plane reservation system.</p>
+                    </div>
+                    <div class="work__img">
+                        <img src="/img/counter.png" alt="">
+                        <a href="https://github.com/jajibade1/Counter_app_JS" class="home__social-icon"><i class='bx bxl-github'>Read me</i></a>
+                        <a href="https://jamiecounterapp.netlify.app" class="home__social-icon"><i class='bx bxl-github'></i>Website</a>
+                        <p>This is a counter app which allows the user to increment, save and delete the counter.</p>
+                    </div>
+                    <div class="work__img">
+                        <img src="/img/python%20program.png" alt="Python Programs">
+                        <a href="https://github.com/jajibade1/Python/tree/main" class="home__social-icon"><i class='bx bxl-github'>Read me</i></a>
+                        <p>This is a python program which calculates the total cost of food ordered. It uses switch statements to determine the choices.</p>
+                    </div>
+                    <div class="work__img">
+                        <img src="/img/average.png" alt="Average">
+                        <a href="https://github.com/jajibade1/Python/blob/main/average_grade.py" class="home__social-icon"><i class='bx bxl-github'>Read me</i>
+                        </a>
+                        <p>This is a python program which calculates the average grade for students based on the average grade.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+
+                <div class="contact__container bd-grid">
+                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdQPsBtWba2Gu5ccyQzfWLpiugFSd71x8r7Nizg5OgYJfCcEg/viewform?embedded=true" width="100%" height="1000" frameborder="0" marginheight="0" display="block" marginwidth="0">Loading…</iframe>
+                </div>
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">Jamie Ajibade</p>
+            <div class="footer__social">
+                <a href="https://youtu.be/U1tKhHbQrXk" class="footer__icon"><i class='bx bxl-youtube' ></i></a>
+                <a href="https://github.com/jajibade1" class="footer__icon"><i class='bx bxl-github' ></i></a>
+                <a href="https://www.linkedin.com/in/jamie-ajibade-144098345/" class="footer__icon"><i class='bx bxl-linkedin' ></i></a>
+            </div>
+
+        </footer>
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+
+    </body>
+</html>
