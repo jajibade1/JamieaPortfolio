@@ -59,9 +59,14 @@ body{
   font-size: var(--normal-font-size);
   color: var(--second-color);
 }
-h1,h2,p{
+h1{
+    color: blue;
+}
+
+h2,p{
   margin: 0;
 }
+
 ul{
   margin: 0;
   padding: 0;
@@ -201,6 +206,11 @@ img{
 .home__title-color{
   color: var(--first-color);
 }
+
+.home__title-color:hover{
+  color:blue;
+}
+
 .home__social{
   display: flex;
   flex-direction: column;
@@ -418,7 +428,11 @@ display: block;
   .nav__link{
     color: var(--second-color);
   }
-
+    
+  .nav__link:hover{
+   color: red;
+  }
+    
   .home{
     height: 100vh;
   }
